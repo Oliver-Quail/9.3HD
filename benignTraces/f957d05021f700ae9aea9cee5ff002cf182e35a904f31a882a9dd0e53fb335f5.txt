@@ -1,0 +1,369 @@
+<__notification__>-<0,0x00000000> __process__([time_low]-546500309, [time_high]31181333, [pid]6740, [ppid]6716, [module_path]"C:\Users\SITOliver\Documents\benign500\f957d05021f700ae9aea9cee5ff002cf182e35a904f31a882a9dd0e53fb335f5.exe", [command_line]""C:\Users\SITOliver\Documents\benign500\f957d05021f700ae9aea9cee5ff002cf182e35a904f31a882a9dd0e53fb335f5.exe" ", [is_64bit]0, [track]1)
+<__notification__>-<0,0x00000000> __action__([action]"gatherer")
+<__notification__>-<0,0x00000000> __action__([action]"gatherer")
+<process>-<0,0x00000000> NtProtectVirtualMemory([process_handle]0xFFFFFFFF, [base_address]0x76162000, [length]0x00001000, [protection]4, [stack_pivoted]0, [stack_dep_bypass]0, [heap_dep_bypass]0, [process_identifier]6740)
+<process>-<0,0x00000000> NtProtectVirtualMemory([process_handle]0xFFFFFFFF, [base_address]0x76162000, [length]0x00001000, [protection]2, [stack_pivoted]0, [stack_dep_bypass]0, [heap_dep_bypass]0, [process_identifier]6740)
+<system>-<0,0x00000000> NtClose([handle]0x00000104)
+<system>-<0,0x00000000> NtClose([handle]0x00000108)
+<system>-<0,0x00000000> LdrGetDllHandle([module_address]0x766C0000, [module_name]"KERNEL32.DLL", [stack_pivoted]0)
+<file>-<-1073282885,0xC00700BB> NtDeviceIoControlFile([file_handle]0x00000088, [control_code]5242902)
+<system>-<0,0x00000000> LdrGetDllHandle([module_address]0x766C0000, [module_name]"KERNEL32.DLL", [stack_pivoted]0)
+<system>-<0,0x00000000> LdrGetDllHandle([module_address]0x766C0000, [module_name]"KERNEL32.DLL", [stack_pivoted]0)
+<system>-<0,0x00000000> LdrGetDllHandle([module_address]0x766C0000, [module_name]"KERNEL32.DLL", [stack_pivoted]0)
+<exception>-<0,0x00000000> SetUnhandledExceptionFilte)
+<process>-<0,0x00000000> NtAllocateVirtualMemory([process_handle]0xFFFFFFFF, [base_address]0x01A33000, [region_size]0x00002000, [allocation_type]4096, [protection]4, [stack_pivoted]0, [stack_dep_bypass]0, [heap_dep_bypass]0, [process_identifier]6740)
+<process>-<0,0x00000000> NtFreeVirtualMemory([process_handle]0xFFFFFFFF, [base_address]0x01355000, [size]0x00010000, [free_type]16384, [process_identifier]6740)
+<process>-<0,0x00000000> NtAllocateVirtualMemory([process_handle]0xFFFFFFFF, [base_address]0x01A35000, [region_size]0x00001000, [allocation_type]4096, [protection]4, [stack_pivoted]0, [stack_dep_bypass]0, [heap_dep_bypass]0, [process_identifier]6740)
+<system>-<0,0x00000000> LdrGetDllHandle([module_address]0x766C0000, [module_name]"kernel32.dll", [stack_pivoted]0)
+<__notification__>-<0,0x00000000> __exception_)
+<system>-<0,0x00000000> OutputDebugStringA([string]"CodeSet_Init: no ICU
+")
+<system>-<0,0x00000000> LdrGetDllHandle([module_address]0x766C0000, [module_name]"kernel32.dll", [stack_pivoted]0)
+<process>-<0,0x00000000> NtAllocateVirtualMemory([process_handle]0xFFFFFFFF, [base_address]0x01A36000, [region_size]0x00002000, [allocation_type]4096, [protection]4, [stack_pivoted]0, [stack_dep_bypass]0, [heap_dep_bypass]0, [process_identifier]6740)
+<registry>-<0,0x00000000> NtOpenKey([key_handle]0x000000FC, [desired_access]9, [regkey]"HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager")
+<registry>-<-1073741772,0xC0000034> NtQueryValueKey([key_handle]0x000000FC, [information_class]2, [regkey]"HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\ResourcePolicies", [key_name]<NULL>, [reg_type]0, [value]<NULL>)
+<system>-<0,0x00000000> NtClose([handle]0x000000FC)
+<process>-<0,0x00000000> NtAllocateVirtualMemory([process_handle]0xFFFFFFFF, [base_address]0x01200000, [region_size]0x0000E000, [allocation_type]8192, [protection]4, [stack_pivoted]0, [stack_dep_bypass]0, [heap_dep_bypass]0, [process_identifier]6740)
+<process>-<0,0x00000000> NtAllocateVirtualMemory([process_handle]0xFFFFFFFF, [base_address]0x01200000, [region_size]0x00001000, [allocation_type]4096, [protection]4, [stack_pivoted]0, [stack_dep_bypass]0, [heap_dep_bypass]0, [process_identifier]6740)
+<process>-<0,0x00000000> NtAllocateVirtualMemory([process_handle]0xFFFFFFFF, [base_address]0x01A38000, [region_size]0x00001000, [allocation_type]4096, [protection]4, [stack_pivoted]0, [stack_dep_bypass]0, [heap_dep_bypass]0, [process_identifier]6740)
+<process>-<0,0x00000000> NtAllocateVirtualMemory([process_handle]0xFFFFFFFF, [base_address]0x01A39000, [region_size]0x00001000, [allocation_type]4096, [protection]4, [stack_pivoted]0, [stack_dep_bypass]0, [heap_dep_bypass]0, [process_identifier]6740)
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+vmrun version 1.15.0 build-2985596
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"Usage: vmrun [AUTHENTICATION-FLAGS] COMMAND [PARAMETERS]
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+AUTHENTICATION-FLAGS
+--------------------
+These must appear before the command and any command parameters.
+
+   -h <hostName>  (not needed for Workstation)
+   -P <hostPort>  (not needed for Workstation)
+   -T <hostType> (ws|server|server1|fusion|esx|vc|player)
+     for example, use '-T server' for Server 2.0
+                  use '-T server1' for Server 1.0
+                  use '-T ws' for VMware Workstation
+                  use '-T ws-shared' for VMware Workstation (shared mode)
+                  use '-T esx' for VMware ESX
+                  use '-T vc' for VMware vCenter Server
+   -u <userName in host OS>  (not needed for Workstation)
+   -p <password in host OS>  (not needed for Workstation)
+   -vp <password for encrypted virtual machine>
+   -gu <userName in guest OS>
+   -gp <password in guest OS>
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"POWER COMMANDS           PARAMETERS           DESCRIPTION
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"--------------           ----------           -----------
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"start                    Path to vmx file     Start a VM or Team
+                         [gui|nogui]
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"stop                     Path to vmx file     Stop a VM or Team
+                         [hard|soft]
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"reset                    Path to vmx file     Reset a VM or Team
+                         [hard|soft]
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"suspend                  Path to vmx file     Suspend a VM or Team
+                         [hard|soft]
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"pause                    Path to vmx file     Pause a VM
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"unpause                  Path to vmx file     Unpause a VM
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"SNAPSHOT COMMANDS        PARAMETERS           DESCRIPTION
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"-----------------        ----------           -----------
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"listSnapshots            Path to vmx file     List all snapshots in a VM
+                         [showTree]
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"snapshot                 Path to vmx file     Create a snapshot of a VM
+                         Snapshot name
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"deleteSnapshot           Path to vmx file     Remove a snapshot from a VM
+                         Snapshot name
+                         [andDeleteChildren]
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"revertToSnapshot         Path to vmx file     Set VM state to a snapshot
+                         Snapshot name
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"GUEST OS COMMANDS        PARAMETERS           DESCRIPTION
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"-----------------        ----------           -----------
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"runProgramInGuest        Path to vmx file     Run a program in Guest OS
+                         [-noWait]
+                         [-activeWindow]
+                         [-interactive]
+                         Complete-Path-To-Program
+                         [Program arguments]
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"fileExistsInGuest        Path to vmx file     Check if a file exists in Guest OS
+                         Path to file in guest
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"directoryExistsInGuest   Path to vmx file     Check if a directory exists in Guest OS
+                         Path to directory in guest
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"setSharedFolderState     Path to vmx file     Modify a Host-Guest shared folder
+                         Share name
+                         Host path
+                         writable | readonly
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"addSharedFolder          Path to vmx file     Add a Host-Guest shared folder
+                         Share name
+                         New host path
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"removeSharedFolder       Path to vmx file     Remove a Host-Guest shared folder
+                         Share name
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"enableSharedFolders      Path to vmx file     Enable shared folders in Guest
+                         [runtime]
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"disableSharedFolders     Path to vmx file     Disable shared folders in Guest
+                         [runtime]
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"listProcessesInGuest     Path to vmx file     List running processes in Guest OS
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"killProcessInGuest       Path to vmx file     Kill a process in Guest OS
+                         process id
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"runScriptInGuest         Path to vmx file     Run a script in Guest OS
+                         [-noWait]
+                         [-activeWindow]
+                         [-interactive]
+                         Interpreter path
+                         Script text
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"deleteFileInGuest        Path to vmx file     Delete a file in Guest OS
+Path in guest            
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"createDirectoryInGuest   Path to vmx file     Create a directory in Guest OS
+Directory path in guest  
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"deleteDirectoryInGuest   Path to vmx file     Delete a directory in Guest OS
+Directory path in guest  
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"CreateTempfileInGuest    Path to vmx file     Create a temporary file in Guest OS
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"listDirectoryInGuest     Path to vmx file     List a directory in Guest OS
+                         Directory path in guest
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"CopyFileFromHostToGuest  Path to vmx file     Copy a file from host OS to guest OS
+Path on host             Path in guest
+                         
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"CopyFileFromGuestToHost  Path to vmx file     Copy a file from guest OS to host OS
+Path in guest            Path on host
+                         
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"renameFileInGuest        Path to vmx file     Rename a file in Guest OS
+                         Original name
+                         New name
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"captureScreen            Path to vmx file     Capture the screen of the VM to a local file
+Path on host             
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"writeVariable            Path to vmx file     Write a variable in the VM state
+                         [runtimeConfig|guestEnv|guestVar]
+                         variable name
+                         variable value
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"readVariable             Path to vmx file     Read a variable in the VM state
+                         [runtimeConfig|guestEnv|guestVar]
+                         variable name
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"getGuestIPAddress        Path to vmx file     Gets the IP address of the guest
+                         [-wait]
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"GENERAL COMMANDS         PARAMETERS           DESCRIPTION
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"----------------         ----------           -----------
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"list                                          List all running VMs
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"upgradevm                Path to vmx file     Upgrade VM file format, virtual hw
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"installTools             Path to vmx file     Install Tools in Guest
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"checkToolsState          Path to vmx file     Check the current Tools state
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"register                 Path to vmx file     Register a VM
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"unregister               Path to vmx file     Unregister a VM
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"listRegisteredVM                              List registered VMs
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"deleteVM                 Path to vmx file     Delete a VM
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"clone                    Path to vmx file     Create a copy of the VM
+                         Path to destination vmx file
+                         full|linked
+                         [-snapshot=Snapshot Name]
+                         [-cloneName=Name]
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+Examples:
+")
+<process>-<0,0x00000000> NtAllocateVirtualMemory([process_handle]0xFFFFFFFF, [base_address]0x01A3A000, [region_size]0x00005000, [allocation_type]4096, [protection]4, [stack_pivoted]0, [stack_dep_bypass]0, [heap_dep_bypass]0, [process_identifier]6740)
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+
+Starting a virtual machine with Workstation on a Windows host
+   vmrun -T ws start "c:\my VMs\myVM.vmx"
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+
+Stopping a virtual machine on an ESX host
+   vmrun -T esx -h https://myHost.com/sdk -u hostUser -p hostPassword stop "[storage1] vm/myVM.vmx"
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+
+Running a program in a virtual machine with Workstation on a Windows host with Windows guest
+   vmrun -T ws -gu guestUser -gp guestPassword runProgramInGuest "c:\my VMs\myVM.vmx" "c:\Program Files\myProgram.exe"
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+
+Running a program in a virtual machine with Server on a Linux host with Linux guest
+   vmrun -T server -h https://myHost.com:8333/sdk -u hostUser -p hostPassword -gu guestUser -gp guestPassword runProgramInGuest "[standard] vm/myVM.vmx" /usr/bin/X11/xclock -display :0
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+
+Creating a snapshot of a virtual machine with Workstation on a Windows host
+   vmrun -T ws snapshot "c:\my VMs\myVM.vmx" mySnapshot
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+
+Reverting to a snapshot with Workstation on a Windows host
+   vmrun -T ws revertToSnapshot "c:\my VMs\myVM.vmx" mySnapshot
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+
+Deleting a snapshot with Workstation on a Windows host
+   vmrun -T ws deleteSnapshot "c:\my VMs\myVM.vmx" mySnapshot
+")
+<misc>-<1,0x00000001> WriteConsoleW([console_handle]0x00000098, [buffer]"
+
+Enabling Shared Folders with Workstation on a Windows host
+   vmrun -T ws enableSharedFolders "c:\my VMs\myVM.vmx"
+")
+<system>-<-1073741515,0xC0000135> LdrGetDllHandle([module_address]0x00000000, [module_name]"mscoree.dll", [stack_pivoted]0)
+<process>-<0,0x00000000> NtTerminateProcess([process_handle]0x00000000, [status_code]-1, [process_identifier]0)
+<process>-<0,0x00000000> NtTerminateProcess([process_handle]0x00000000, [status_code]-1, [process_identifier]0)
+<system>-<0,0x00000000> LdrGetDllHandle([module_address]0x766C0000, [module_name]"kernel32.dll", [stack_pivoted]0)
+<system>-<0,0x00000000> LdrGetDllHandle([module_address]0x75DB0000, [module_name]"kernelbase.dll", [stack_pivoted]0)
+<system>-<0,0x00000000> NtClose([handle]0x000001D8)
+<system>-<0,0x00000000> NtClose([handle]0x000001C0)
+<system>-<0,0x00000000> NtClose([handle]0x000001C4)
+<system>-<0,0x00000000> NtClose([handle]0x000001C8)
+<system>-<0,0x00000000> NtClose([handle]0x000001CC)
+<system>-<0,0x00000000> NtClose([handle]0x000001D0)
+<system>-<0,0x00000000> NtClose([handle]0x000001D4)
+<system>-<0,0x00000000> NtClose([handle]0x000001E0)
+<system>-<0,0x00000000> NtClose([handle]0x000001DC)
+<system>-<0,0x00000000> NtClose([handle]0x000001BC)
+<system>-<0,0x00000000> NtClose([handle]0x000001B4)
+<system>-<0,0x00000000> NtClose([handle]0x000001B8)
+<system>-<0,0x00000000> NtClose([handle]0x000001AC)
+<system>-<0,0x00000000> NtClose([handle]0x000001B0)
+<system>-<0,0x00000000> NtClose([handle]0x000001A8)
+<system>-<0,0x00000000> LdrGetDllHandle([module_address]0x77D40000, [module_name]"ntdll.dll", [stack_pivoted]0)
+<system>-<0,0x00000000> NtClose([handle]0x0000018C)
+<system>-<0,0x00000000> NtClose([handle]0x00000190)
+<system>-<0,0x00000000> NtClose([handle]0x00000194)
+<system>-<0,0x00000000> NtClose([handle]0x00000198)
+<system>-<0,0x00000000> NtClose([handle]0x0000019C)
+<system>-<0,0x00000000> NtClose([handle]0x000001A4)
+<system>-<0,0x00000000> NtClose([handle]0x000001A0)
+<system>-<0,0x00000000> NtClose([handle]0x0000016C)
+<system>-<0,0x00000000> NtClose([handle]0x00000170)
+<system>-<0,0x00000000> NtClose([handle]0x00000168)
+<system>-<0,0x00000000> NtClose([handle]0x000001EC)
+<system>-<0,0x00000000> NtClose([handle]0x00000164)
+<system>-<0,0x00000000> NtClose([handle]0x0000015C)
+<system>-<0,0x00000000> NtClose([handle]0x00000160)
+<system>-<0,0x00000000> NtClose([handle]0x00000158)
+<system>-<0,0x00000000> NtClose([handle]0x00000154)
+<system>-<0,0x00000000> NtClose([handle]0x00000150)
+<system>-<0,0x00000000> LdrUnloadDll([module_address]0x76070000, [library]"IMM32")
+<system>-<0,0x00000000> NtClose([handle]0x00000120)
+<system>-<0,0x00000000> NtClose([handle]0x00000124)
+<system>-<0,0x00000000> NtClose([handle]0x00000128)
+<registry>-<0,0x00000000> NtOpenKey([key_handle]0x00000128, [desired_access]131097, [regkey]"HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\GRE_Initialize")
+<registry>-<-1073741772,0xC0000034> NtQueryValueKey([key_handle]0x00000128, [information_class]2, [regkey]"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\GRE_Initialize\DisableMetaFiles", [key_name]<NULL>, [reg_type]0, [value]<NULL>)
+<system>-<0,0x00000000> NtClose([handle]0x00000128)
+<registry>-<0,0x00000000> NtOpenKey([key_handle]0x00000128, [desired_access]131097, [regkey]"HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\GRE_Initialize")
+<registry>-<-1073741772,0xC0000034> NtQueryValueKey([key_handle]0x00000128, [information_class]2, [regkey]"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\GRE_Initialize\DisableUmpdBufferSizeCheck", [key_name]<NULL>, [reg_type]0, [value]<NULL>)
+<system>-<0,0x00000000> NtClose([handle]0x00000128)
+<system>-<0,0x00000000> NtClose([handle]0x00000100)
+<system>-<0,0x00000000> NtClose([handle]0x00000110)
+<system>-<0,0x00000000> LdrGetDllHandle([module_address]0x77D40000, [module_name]"ntdll.dll", [stack_pivoted]0)
+<process>-<0,0x00000000> NtAllocateVirtualMemory([process_handle]0xFFFFFFFF, [base_address]0x01355000, [region_size]0x00010000, [allocation_type]4096, [protection]4, [stack_pivoted]0, [stack_dep_bypass]0, [heap_dep_bypass]0, [process_identifier]6740)
+<system>-<0,0x00000000> NtClose([handle]0x000000BC)
+<system>-<0,0x00000000> NtClose([handle]0x000000C0)
+<system>-<0,0x00000000> NtClose([handle]0x000000A0)
+<system>-<0,0x00000000> NtClose([handle]0x000000B0)
+<system>-<0,0x00000000> NtClose([handle]0x000000B4)
+<process>-<0,0x00000000> NtTerminateProcess([process_handle]0xFFFFFFFF, [status_code]-1, [process_identifier]6740)

@@ -2,12 +2,12 @@ import os
 import time
 
 
-def get_trace(file_name):
+def get_trace(file_name, target):
     os.system(r"VBoxManage startvm 'Lab' --type=headless")
     time.sleep(10)
     print("unsleep")
 
-    os.system("VBoxManage guestcontrol 'Lab' run --exe=cmd.exe --username=SITOliver --password=pass -- cmd.exe /c ' cd C:\\Users\\SITOliver\\Documents && APIMiner.exe --app C:\\Users\\SITOliver\\Documents\\benign500\\{0}' > temp1.txt".format(file_name))
+    os.system("VBoxManage guestcontrol 'Lab' run --exe=cmd.exe --username=SITOliver --password=pass -- cmd.exe /c ' cd C:\\Users\\SITOliver\\Documents && APIMiner.exe --app C:\\Users\\SITOliver\\Documents\\{0}500\\{1}' > temp1.txt".format(target, file_name))
 
     #Extract the name of the trace for extraction
     os.system(r"VBoxManage guestcontrol 'Lab' run --exe=cmd.exe --username=SITOliver --password=pass -- cmd.exe /c 'dir C:\Users\SITOliver\Documents\data' > temp.txt")
@@ -53,7 +53,7 @@ def get_trace(file_name):
     command = "VBoxManage guestcontrol 'Lab' run --exe=cmd.exe --username=SITOliver --password=pass -- cmd.exe /c 'more C:\\Users\\SITOliver\\Documents\\data\\{0}' > {1}".format(api_trace_file_name, output_file_name)
 
     os.system(command)
-    os.system("mv ./" + output_file_name + " ./traces/" + output_file_name)
+    os.system("mv ./" + output_file_name +  target + "Traces/" + output_file_name)
     os.system("VBoxManage controlvm 'Lab' poweroff")
     os.system("VBoxManage snapshot 'Lab' restore 'Malware Ready'")
     time.sleep(2)

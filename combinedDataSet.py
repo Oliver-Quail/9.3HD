@@ -28,6 +28,17 @@ for trace in useAbleTraces:
     modifiedTraces.append(trace[:-4])
 
 useAbleTraces = modifiedTraces
+
+useAbleTracesB = list(os.listdir("benignTraces/"))
+
+modifiedTraces = []
+APIsAndDlls = []
+
+for trace in useAbleTracesB:
+    modifiedTraces.append(trace[:-4])
+
+useAbleTracesB = modifiedTraces
+
 df = pd.read_csv("./labels/malware.csv")
 
 dynamicMalwareJson = json.loads(open("./dynamic_features_malware.json").read())

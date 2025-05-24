@@ -4,11 +4,11 @@ from extract import *
 
 # Toggle to get the relevant files
 target = "malware"
-# files_to_run = list(os.listdir("files/" + target + "500"))
-# index = 0
-# while index < len(files_to_run):
-#     get_trace(files_to_run[index])
-#     index += 1
+files_to_run = list(os.listdir("files/" + target + "500"))
+index = 0
+while index < len(files_to_run):
+    get_trace(files_to_run[index], target)
+    index += 1
 
 files = list(os.listdir(target + "Traces/"))
 
